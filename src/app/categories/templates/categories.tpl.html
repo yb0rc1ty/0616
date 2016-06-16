@@ -1,0 +1,11 @@
+<article id="COMPONENT_Categories" ui-view class="container-fluid">
+    <div class="page-header">
+        <div class="btn-toolbar pull-right">
+            <button type="button" class="btn btn-success" ui-sref=".create"><i class="fa fa-plus-circle"></i> Create New</button>
+            <button ui-sref=".tree" class="btn btn-default"><i class="fa fa-sitemap"></i> View Tree</button>
+        </div>
+        <h3>Categories</h3>
+    </div>
+    <div ui-view="filters"></div>
+    <div ui-view="list"></div>
+</article>
